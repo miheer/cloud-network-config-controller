@@ -1,6 +1,8 @@
 module github.com/openshift/cloud-network-config-controller
 
-go 1.26.8
+go 1.26.0
+
+toolchain go1.26.8
 
 require (
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.17.0
